@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+           -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+           -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+           transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s;
+           
+        }
+        .box:hover{
+            background-color: rgba(0, 1, 2, 0.1);
+            box-shadow: -20px -9px 5px 0px rgba(0,0,0,0.75);
+           -webkit-box-shadow: -20px -9px 5px 0px rgba(0,0,0,0.75);
+           -moz-box-shadow: -20px -9px 5px 0px rgba(0,0,0,0.75);
+            
+        }
+        .card{
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 20px;
+            overflow: hidden;
+            transition-property: background-color white;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 0.2s;
+        }
+        .card img{
+            width: 100%;
+            height: 100%;
+        }
+        .card-content{
+            padding: 16px;
+        }
+        .card-title{
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+        }
+        .card-body{
+            font-size: 1rem;
+        }
+        .card:hover{
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+        }
+
+        .Click{
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition-property: background-color white;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 0.1s;
+        }
+        .Click:hover{
+
+            color: black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    <div class="box">
+
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="dummy">
+        <!-- <div class="card-content">
+            <h2 class="card-title"> Card Title</h2>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Deserunt optio tenetur corporis quod placeat animi inventore, 
+                 temporibus nostrum aperiam quidem impedit quos suscipit 
+                 nam velit laboriosam necessitatibus quisquam debitis vero.
+                </p> -->
+        </div>
+    </div>
+    <div>
+        <button class="Click">Click me</button>
+    </div>
+</body>
+</html>
